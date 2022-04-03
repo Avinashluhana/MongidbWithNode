@@ -37,8 +37,8 @@ const findParticularData = async () => {
 //   different functions like 
 //   gte greater than and equal to
 //   gt greate than
-//   ls less than 
-//   lse less than and equal to
+//   lt less than 
+//   lte less than and equal to
 
   console.log(findparData);
 };
