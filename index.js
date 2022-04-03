@@ -31,5 +31,12 @@ const finder = async () => {
   console.log(findData);
 };
 
-adder();
-finder();
+const findParticularData = async () => {
+  const findparData = await collection.find({ name: { $eq:17 } });
+
+  console.log(findparData);
+};
+// adder();
+// finder();
+
+findParticularData();
