@@ -34,6 +34,12 @@ const finder = async () => {
 const findParticularData = async () => {
   const findparData = await collection.find({ name: { $eq:17 } });
 
+//   different functions like 
+//   gte greater than and equal to
+//   gt greate than
+//   ls less than 
+//   lse less than and equal to
+
   console.log(findparData);
 };
 // adder();
